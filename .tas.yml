@@ -5,13 +5,13 @@ postMerge:
   pattern: 
     - "test/**/*.spec.js"
 postRun: 
-  command: 
+  commands: 
     - "node --version"  
 preMerge: 
   pattern: 
     - "test/**/*.spec.js"
 preRun: 
-  command: 
+  commands: 
     - npm ci
  
 
