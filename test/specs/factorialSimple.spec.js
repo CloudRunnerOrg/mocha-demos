@@ -4,7 +4,7 @@ const spies = require('chai-spies');
 const { expect } = require('chai');
 chai.use(spies);
 
-describe('factorialSimple', function() {
+describe('factorialSimplee', function() {
     let factorial, spy;
 
     beforeEach(() => {
