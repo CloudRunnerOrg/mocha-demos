@@ -2,7 +2,7 @@
 framework: mocha
 tier: xsmall
 blocklist:
-  - "test/specs/factorialSimple.spec.js"
+  - "test/**/*.spec.js"
 postMerge: 
   pattern: 
     - "test/**/*.spec.js"
