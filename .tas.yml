@@ -15,4 +15,3 @@ preMerge:
 preRun: 
   command: 
     - npm ci
-
